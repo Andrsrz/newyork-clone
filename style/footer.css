@@ -1,0 +1,32 @@
+footer {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#more-nytimes {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: flex-start;
+	align-items: flex-start;
+	text-align: left;
+}
+
+#more-nytimes .list {
+	margin: 0 30px 0 30px;
+}
+
+#more-nytimes .item {
+	display: list-item !important;
+	font-size: 12px;
+	margin: 7px 0 7px 0;
+}
+
+#more-nytimes .item > a {
+	text-decoration: none;
+}
+
+#more-nytimes .item > a:hover {
+	text-decoration: underline;
+}
