@@ -10,3 +10,15 @@ html, body {
 	box-sizing: border-box;
 	text-align: center;
 }
+
+.list {
+	list-style: none;
+}
+
+.list > li {
+	display: inline;
+}
+
+a {
+	color: #000;
+}
