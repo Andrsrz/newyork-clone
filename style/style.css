@@ -22,3 +22,8 @@ html, body {
 a {
 	color: #000;
 }
+
+.icon {
+	cursor: pointer;
+	padding: 5px;
+}
