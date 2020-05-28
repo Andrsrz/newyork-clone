@@ -4,6 +4,11 @@ header {
 	justify-content: space-around;
 	align-items: center;
 	padding: 5px;
+	/* sticky */
+	background: #FFF;
+	position: fixed;
+	top: 0;
+	width: 100%
 }
 
 header .icon {
