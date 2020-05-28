@@ -1,8 +1,18 @@
 footer {
+	margin: auto;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	width: 50%;
+}
+
+#footer-title {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 100%;
+	margin-bottom: 10px;
 }
 
 #more-nytimes {
@@ -28,5 +38,19 @@ footer {
 }
 
 #more-nytimes .item > a:hover {
+	text-decoration: underline;
+}
+
+#links > .list > li {
+	font-size: 10px;
+	padding: 10px;
+	color: #666666;
+}
+
+#links > .list > li > a {
+	text-decoration: none;
+}
+
+#links > .list > li > a:hover {
 	text-decoration: underline;
 }
