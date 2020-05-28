@@ -7,20 +7,16 @@ main {
 }
 
 #article-header {
-	display: block;
-	width: 65%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: left;
 }
 
 #article-header > #title {
 	width: 35%;
 	margin-bottom: 10px;
-	text-align: left;
-}
-
-#article-header > #main-image {
-	display: block;
-	margin-right: auto;
-	margin-left: auto;
 }
 
 #article-header > #image-info {
@@ -28,5 +24,29 @@ main {
 	width: 50%;
 	color: #666666;
 	font-size: 14px;
+}
+
+#article-body-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 	text-align: left;
+}
+
+#article-body-container > p {
+	width: 32%;
+	margin-bottom: 10px;
+	font-size: 19px;
+	color: #333333;
+}
+
+#article-body-container > iframe {
+	width: 32%;
+	margin: 20px;
+}
+
+#article-body-container > img {
+	width: 40%;
+	margin: 15px;
 }
